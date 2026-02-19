@@ -169,16 +169,18 @@ jupyter notebook Customer_Churn_Analysis.ipynb
 
 ## 📂 Project Structure
 ```
-churn-project/
-├── Customer_Churn_Analysis.ipynb    # Main analysis notebook
-├── data/
-│   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
-├── images/                           # Visualizations for README
+telco-churn-prediction/
+├── Customer_Churn_Analysis.ipynb    # Main analysis notebook (9 cells)
+├── WA_Fn-UseC_-Telco-Customer-Churn.csv
+├── images/                           # Generated visualizations
+│   ├── demographics_churn.png
+│   ├── services_churn.png
+│   ├── confusion_matrix.png
 │   ├── feature_importance.png
-│   ├── tenure_churn.png
-│   └── services_count.png
-├── telecom_churn.db                  # SQLite database
-└── README.md                         # This file
+│   └── advanced_analysis.png
+├── telecom_churn.db                  # SQLite database (auto-generated)
+├── requirements.txt
+└── README.md
 ```
 
 ---
@@ -197,5 +199,6 @@ churn-project/
 This project is for portfolio purposes. Dataset source: [Kaggle](https://www.kaggle.com/blastchar/telco-customer-churn)
 
 ---
+
 
 *Built with ❤️ as part of my transition to Data Analytics*
