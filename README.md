@@ -51,6 +51,7 @@ A telecom company has **26% of its customer base** in churned status, losing **$
 ### 3. **Feature Engineering**
 - `Is_First_Year`: Binary flag for tenure ≤ 12 months
 - `Services_Count`: Sum of security, backup, and support services
+- `Is_Single_Independent`:Identifying highly mobile customers without domestic anchors
 - One-hot encoding for categorical variables
 
 ### 4. **Model Training**
@@ -213,5 +214,6 @@ telco-churn-prediction/
 This project is for portfolio purposes. Dataset source: [Kaggle](https://www.kaggle.com/blastchar/telco-customer-churn)
 
 ---
+
 
 *Built with ❤️ as part of my transition to Data Analytics*
